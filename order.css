@@ -1,0 +1,79 @@
+*{
+ font-family: 'Times New Roman', Times, serif;
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ outline: none;
+ border: none;
+ text-transform: capitalize;
+ transition: all .2s linear;
+}
+.ordercontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    min-height: 100vh;
+    background: #EAECCC;
+    padding-bottom: 70px;
+}
+
+.ordercontainer form{
+    padding: 20px;
+    width: 350px;
+    background:rgba(0,0,0,.2);
+    border-radius: 30px;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+}
+
+.ordercontainer form .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.ordercontainer form .row .col{
+    flex: 1 1 250px;
+}
+
+.ordercontainer form .row .col .title{
+    font-size: 20px;
+    color: #333;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.ordercontainer form .row .col .inputBox{
+    margin: 15px 0;
+}
+
+.ordercontainer form .row .col .inputBox span{
+    margin-bottom: 10px;
+    display: black;
+}
+
+.ordercontainer form .row .col .inputBox input{
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    font-size: 15px;
+    text-transform: none;
+}
+
+.ordercontainer form .row .col .inputBox input:focus{
+    border: 1px solid #000;
+
+}
+
+.ordercontainer form .row .inputBoxofp{
+    margin-left: 15px;
+}
+
+
+
+
+
+
+
+ 

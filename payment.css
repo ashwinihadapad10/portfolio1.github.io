@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh;
+}
+
+.pcontainer{
+    width: 400px;
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.1),
+                0 5px 12px rgba(0,0,0,0.1),
+                0 18px 36px -6px rgba(0,0,0,0.1);
+}
+
+.pcontainer .ptitle{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pcontainer form .catergory{
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+.catergory label{
+    width: 100%;
+    height: 65px;
+    padding: 20px;
+    box-shadow: 0px 0px 0pc 1px rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+label:nth-child(2),label:nth-child(3){
+    margin: 15px 0;
+}
+
+#phonepe:checked~ .catergory .phonepemethod,
+#googlepay:checked~ .catergory .googlepaymethod,
+#paytm:checked~ .catergory .paytmmethod,
+#cashondelivery:checked~ .catergory .cashondeliverymethod{
+    box-shadow: 0px 0px 0px 1px #6064b6;
+}
+
+
+
+label .imgName{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.imgName span{
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imgName .imgcontainer{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+img{
+    width: 50px;
+    height: auto;
+}
+
+.phonepe img{
+    width: 60px;
+}
+
+.googlepay img{
+    width: 60px;
+}
+
+.paytm img{
+    width: 80px;
+}
+.check{
+    display: none;
+}
+
+.check i{
+    font-size: 18px;
+}
+
+.pcontainer form .buttonpay{
+    text-align: center;
+    margin-top: 30px;
+    border: 1px solid transparent;
+    margin-left: 90px;
+    width: 150px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: #5C8374;
+    
+}
+
+.pcontainer form .buttonpay:hover{
+    transform: scale(1.1);
+}
+
+.pcontainer form .buttonpay a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+

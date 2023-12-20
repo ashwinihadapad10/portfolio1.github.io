@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Jost', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+header{
+    position:fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10%;
+}
+.logo img{
+    max-width: 120px;
+    height: auto;
+}
+.navmenu{
+    display: flex;
+
+}
+.navmenu a{
+    color:#092635 ;
+    font-size: 16px;
+    text-transform:capitalize ;
+    padding: 10px 20px;
+    font-family: 400;
+    transition: all .42s ease;
+}
+.navmenu a:hover{
+    color: #FAF3F0;
+}
+.nav-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-icon i{
+    margin-right: 20px;
+    color: #092635;
+    font-size: 25px;
+    font-weight: 400;
+    transition: all .42s ease;
+}
+.nav-icon i:hover{
+    transform: scale(1.1);
+    color:#FAF3F0;
+}
+section{
+    padding: 5% 10%;
+
+}
+.main-home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(zomatob1.jpg);
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    align-items: center;
+}
+.main-home h1{
+    color: #200E3A;
+    font-size: 55px;
+    text-transform: capitalize;
+    line-height: 1.1;
+    font-weight: 600;
+    margin: 6px 0 10px;
+}
+.main-home p{
+    color: black;
+    font-size: 20px;
+    font-style: italic;
+    
+}
+.main-btn{
+    display: inline-block;
+    color: #0F2167;
+    font-size: 16px;
+   font-weight: 500;
+   text-transform: capitalize;
+   border: 2px solid #0F2167;
+  
+   padding: 12px 25px;
+   transition: all .42s ease;
+}
+.main-btn:hover{
+    background-color:black;
+    color: white;
+}
+.main-btn i{
+    vertical-align: middle;
+}
+
+ /* starts of the inspirtion for your first order */
+
+.oneiteminallresto .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    
+    
+}
+.oneiteminallresto .heading{
+    text-align: center;
+    padding: 3rem;
+}
+
+
+.oneiteminallresto .box-container .box .image{
+    position: relative;
+    text-align: center;
+    padding:0.5rem;
+}
+
+.oneiteminallresto .box-container .box .image img{
+    width: 210px;
+    
+}
+
+.oneiteminallresto .box-container .box .image:hover img{
+    transform: scale(1.1);
+    
+}
+
+.oneiteminallresto .box-container .box .content{
+    position: absolute;
+    padding: 0px 70px;
+  
+}
+
+/* end of the inspiration */
+
+
+/* begin of next best food  */
+
+.restaurant h1{
+    text-align: center;
+    padding: 1.5rem;
+}
+
+
+.restamainbox{
+    width: 100%;
+    height: auto;
+}
+
+.resta-box{
+    width: 100px;
+    height: 100px;
+    background: #F5F7F8;
+    color: #0F2167;
+    font-size: 25px;
+    text-align: center;
+    line-height: 200px;
+    border-radius: 200px;
+}
+
+ /* restaurant in india */
+ .nameofrestarunt{
+    text-align: center;
+ }
+
+ .feature-menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 150px;
+    
+   
+  }
+  
+  
+  
+  .feature-1st {
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    margin:5px;
+    gap: 5px;
+    padding: 40px 50px;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.4);
+    border-radius: 40px;
+    background-color: #F5F7F8;
+
+  }
+
+  /* end of restaurant in india  */
+
+
+
+
+
+
